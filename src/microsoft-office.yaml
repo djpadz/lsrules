@@ -1,0 +1,44 @@
+description: LS Rules for Microsoft Office applications
+name: Microsoft Office
+path: apps/microsoft-office.lsrules
+base_rules:
+  all_apps: &all_apps
+    owner: me
+    action: allow
+    ports: "443"
+    protocol: tcp
+    remote-domains: &remote_domains
+      - azure.com
+      - azurewebsites.net
+      - cloudapp.net
+      - cortana.ai
+      - live.com
+      - microsoft.com
+      - microsoftonline.com
+      - msedge.net
+      - office.com
+      - office.net
+      - office365.com
+      - outlook.com
+      - s-dc-msedge.net
+      - sfbassets.com
+      - sharepoint.com
+      - skype.com
+      - svc.ms
+rules:
+  - process: "/Applications/Microsoft Excel.app"
+    <<: *all_apps
+  - process: "/Applications/Microsoft OneNote.app"
+    <<: *all_apps
+  - process: "/Applications/Microsoft Outlook.app"
+    <<: *all_apps
+  - process: "/Applications/Microsoft PowerPoint.app"
+    <<: *all_apps
+  - process: "/Applications/Microsoft Word.app"
+    <<: *all_apps
+  - process: "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app"
+    <<: *all_apps
+  - process: "/Applications/Microsoft Teams.app"
+    <<: *all_apps
+  - process: "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app"
+    <<: *all_apps
