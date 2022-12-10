@@ -7,7 +7,7 @@ base_rules:
     action: allow
     ports: "443"
     protocol: tcp
-    remote-domains: &remote_domains
+    remote-domains:
       - azure.com
       - azurewebsites.net
       - cloudapp.net

@@ -1,0 +1,30 @@
+{
+    "name": "Heard and McDonald Islands (Ask)",
+    "description": "Ask before accessing networks in Heard and McDonald Islands",
+    "rules": [
+        {
+            "action": "ask",
+            "process": "any",
+            "owner": "any",
+            "creationDate": 1670703966.0,
+            "modificationDate": 1670704607.3439062,
+            "remote-addresses": [
+                "31.42.183.97/32",
+                "45.12.70.97/32",
+                "45.12.71.97/32",
+                "45.136.137.114/31",
+                "136.23.10.200/32",
+                "136.23.21.44/32",
+                "147.66.4.0/23",
+                "147.66.6.0/24",
+                "194.50.99.97/32",
+                "194.50.111.97/32",
+                "2606:40:1750::/44",
+                "2606:40:1760::/44",
+                "2a09:4c0:0:61::/64",
+                "2a0c:3b80:484d::/48",
+                "2a0c:3b80:686d::/48"
+            ]
+        }
+    ]
+}
