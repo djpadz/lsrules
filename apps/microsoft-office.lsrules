@@ -16,6 +16,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -28,7 +29,7 @@
             ],
             "process": "/Applications/Microsoft Excel.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -44,6 +45,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -56,7 +58,7 @@
             ],
             "process": "/Applications/Microsoft OneNote.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -72,6 +74,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -84,7 +87,7 @@
             ],
             "process": "/Applications/Microsoft Outlook.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -100,6 +103,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -112,7 +116,7 @@
             ],
             "process": "/Applications/Microsoft PowerPoint.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -128,6 +132,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -140,7 +145,7 @@
             ],
             "process": "/Applications/Microsoft Word.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -156,6 +161,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -168,7 +174,7 @@
             ],
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -184,6 +190,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -196,7 +203,7 @@
             ],
             "process": "/Applications/Microsoft Teams.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         },
         {
             "owner": "me",
@@ -212,6 +219,7 @@
                 "microsoft.com",
                 "microsoftonline.com",
                 "msedge.net",
+                "msn.com",
                 "office.com",
                 "office.net",
                 "office365.com",
@@ -224,7 +232,7 @@
             ],
             "process": "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670627793.4761431
+            "modificationDate": 1670705603.349659
         }
     ]
 }

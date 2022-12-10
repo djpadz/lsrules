@@ -16,6 +16,7 @@ base_rules:
       - microsoft.com
       - microsoftonline.com
       - msedge.net
+      - msn.com
       - office.com
       - office.net
       - office365.com
