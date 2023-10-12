@@ -29,7 +29,7 @@
             ],
             "process": "/Applications/Microsoft Excel.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -58,7 +58,7 @@
             ],
             "process": "/Applications/Microsoft OneNote.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -87,7 +87,7 @@
             ],
             "process": "/Applications/Microsoft Outlook.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -116,7 +116,7 @@
             ],
             "process": "/Applications/Microsoft PowerPoint.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -145,7 +145,7 @@
             ],
             "process": "/Applications/Microsoft Word.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -174,7 +174,7 @@
             ],
             "process": "/Applications/OneDrive.app/Contents/Microsoft SharePoint.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -203,7 +203,65 @@
             ],
             "process": "/Applications/Microsoft Teams.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
+        },
+        {
+            "owner": "me",
+            "action": "allow",
+            "ports": "443",
+            "protocol": "tcp",
+            "remote-domains": [
+                "azure.com",
+                "azurewebsites.net",
+                "cloudapp.net",
+                "cortana.ai",
+                "live.com",
+                "microsoft.com",
+                "microsoftonline.com",
+                "msedge.net",
+                "msn.com",
+                "office.com",
+                "office.net",
+                "office365.com",
+                "outlook.com",
+                "s-dc-msedge.net",
+                "sfbassets.com",
+                "sharepoint.com",
+                "skype.com",
+                "svc.ms"
+            ],
+            "process": "/Applications/Microsoft Teams (work or school).app",
+            "creationDate": 1670609717.8541021,
+            "modificationDate": 1697131189.384094
+        },
+        {
+            "owner": "me",
+            "action": "allow",
+            "ports": "443",
+            "protocol": "tcp",
+            "remote-domains": [
+                "azure.com",
+                "azurewebsites.net",
+                "cloudapp.net",
+                "cortana.ai",
+                "live.com",
+                "microsoft.com",
+                "microsoftonline.com",
+                "msedge.net",
+                "msn.com",
+                "office.com",
+                "office.net",
+                "office365.com",
+                "outlook.com",
+                "s-dc-msedge.net",
+                "sfbassets.com",
+                "sharepoint.com",
+                "skype.com",
+                "svc.ms"
+            ],
+            "process": "/Applications/Microsoft Teams classic.app",
+            "creationDate": 1670609717.8541021,
+            "modificationDate": 1697131189.384094
         },
         {
             "owner": "me",
@@ -232,7 +290,7 @@
             ],
             "process": "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app",
             "creationDate": 1670609717.8541021,
-            "modificationDate": 1670705603.349659
+            "modificationDate": 1697131189.384094
         }
     ]
 }
