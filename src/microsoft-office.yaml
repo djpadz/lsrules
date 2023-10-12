@@ -41,5 +41,9 @@ rules:
     <<: *all_apps
   - process: "/Applications/Microsoft Teams.app"
     <<: *all_apps
+  - process: "/Applications/Microsoft Teams (work or school).app"
+    <<: *all_apps
+  - process: "/Applications/Microsoft Teams classic.app"
+    <<: *all_apps
   - process: "/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app/Contents/MacOS/Microsoft Update Assistant.app"
     <<: *all_apps
