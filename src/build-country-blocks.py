@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 import csv
 import io
+import json
 import time
 from os import getenv
 from pathlib import Path
 from shutil import rmtree
+from typing import Any
 from zipfile import ZipFile
-import json
 
 db_zip_path = Path(getenv("DB_ZIP", "GeoLite2-Country-CSV.zip"))
 rules_path = Path(getenv("RULES_PATH", Path(__file__).parent.parent / "by-country"))
@@ -18,7 +19,7 @@ action_map = {
 }
 
 
-dbs = {}
+dbs: dict[str, list[dict[str, Any]]] = {}
 
 run_time = time.time()
 
@@ -31,11 +32,13 @@ with ZipFile(db_zip_path) as db_zip:
                     dbs[member] = list(csv.DictReader(io.TextIOWrapper(f)))
                 break
 
-geoname_mapping = {int(r["geoname_id"]): r for r in dbs["Locations-en"]}
+geoname_mapping: dict[int, dict[str, Any]] = {
+    int(r["geoname_id"]): r for r in dbs["Locations-en"]
+}
 if 0 not in geoname_mapping:
     geoname_mapping[0] = {"country_iso_code": "ZZ", "country_name": "Unknown"}
 
-country_blocks = {}
+country_blocks: dict[int, list[str]] = {}
 
 for m in ["IPv4", "IPv6"]:
     for row in dbs[m]:
@@ -52,7 +55,7 @@ for k, v in country_blocks.items():
     cn = gm["country_name"] or f"{gm['continent_name']} (Other)"
     for action, description_fmt in action_map.items():
         rule_file = f"{cc}-{action}.lsrules"
-        rule = {
+        rule: dict[str, Any] = {
             "name": f"{cn} ({action.capitalize()})",
             "description": description_fmt.format(cn),
             "rules": [
